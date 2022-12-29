@@ -1,0 +1,15 @@
+<div class="card m-3" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title"><%= @friend.first_name %> <%= @friend.last_name %></h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <%= link_to "Edit this friend", edit_friend_path(@friend), class: "btn btn-secondary m-1" %> <br>
+  </div>
+</div>
+
+
+<div>
+  
+  <%= link_to "Back to friends", friends_path, class: "btn btn-dark m-1" %>
+
+  
+</div>
